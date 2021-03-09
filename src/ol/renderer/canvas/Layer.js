@@ -22,6 +22,7 @@ import {rotateAtOffset} from '../../render/canvas.js';
 /**
  * @abstract
  * @template {import("../../layer/Layer.js").default} LayerType
+ * @extends {LayerRenderer<LayerType>}
  */
 class CanvasLayerRenderer extends LayerRenderer {
   /**
